@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.86) , transparent), url(./img/frango.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    border-top: 50px solid rgb(255, 111, 0);
+    border-left: 40px solid rgb(255, 111, 0);
+}
+h1{
+    position: relative;
+    left: 1%;
+    top: 150px;
+    font-size: 9vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: left;
+}
+h4{
+    position: relative;
+    left: 1%;
+    top: 150px;
+    font-size: 3vh;
+    justify-content: left;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+}
+div.pedido{
+    font-weight: bold;
+    position: relative;
+    left: 3%;
+    top: 170px;
+    font-size: 4vh;
+    justify-content: left;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    width: 250px;
+}
+a{
+    position: relative;
+    left: 20%;
+    top: 123px;
+
+}
